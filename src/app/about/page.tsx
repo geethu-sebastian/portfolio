@@ -5,26 +5,25 @@ import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
   const items = [
     { hobby: "coding" },
-    { hobby: "playing games" },
-    { hobby: "Watching Anima" },
-    { hobby: "Tect Blog writing" },
+    { hobby: "Singing" },
+    { hobby: "Watching Movies" },
     { hobby: "creating Cool Projects" },
   ];
 
   return (
     // ABOUT PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+    <div className="h-full w-full relative flex flex-col items-start gap-8 overflow-hidden">
       <Badge className=" gap-2">
         <User2 className="h-5 w-5" />
         About me
       </Badge>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-4">
         <Heading>
           Software Engineer And Web <br /> Developer, Based In India.
         </Heading>
 
         <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-          I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India.
+          I am a Full Stack Web Developer from Cochin, Kerala, India.
           I love crafting cool web projects and also open-source contribuitions.
           My biggest achievement lies in my mastery of JavaScript and CSS,
           ensuring pixel-perfect designs that captivate users. With a keen eye
@@ -32,15 +31,13 @@ const page = () => {
           seamless and responsive interfaces that leave a lasting impression.
         </p>
       </div>
-      <div className="w-full flex flex-row justify-between max-lg:flex-col ">
-        <Aboutfooter />
-      </div>
+      
       <div className="block">
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
         </h1>
-        <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
+        <div className="w-full h-fit p-2 flex flex-row justify-between gap-5 max-lg:flex-col">
           {items.map((val, indx) => {
             return (
               <div

@@ -16,7 +16,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  //metadataBase: new URL(""),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -25,22 +25,13 @@ export const metadata: Metadata = {
 
   // added new keywords for seo
   keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
+    "geethu",
+    "sebastian",
+    "GEETHU",
+    "Geethu",
+    "Sebastian",
+    "Geethu Sebastian",
+    "geethu sebastian",
     "portfolio",
     "web developer",
     "web",
@@ -48,27 +39,25 @@ export const metadata: Metadata = {
     "developer",
     "PROGRAMMER ",
     "programmer ",
-    "MD TAQUI IMAM ",
+    "GEETHU SEBASTIAN ",
     "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
+    "@geethugsp",
+    "geethu developer",
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "Geethu Sebastian",
+      url: "https://github.com/geethu-sebastian",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Geethu Sebastian",
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteConfig.url,
+    //url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
     siteName: siteConfig.name,
   },
   twitter: {
@@ -76,7 +65,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
+    creator: "@geethugsp",
   },
   icons: {
     icon: "/favicon.ico",
@@ -93,7 +82,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${rubik.variable}`}>
         <main
           className={cn(
-            "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
+            "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20",
             { "bg-white": "#E6E7EB" }
           )}
         >
