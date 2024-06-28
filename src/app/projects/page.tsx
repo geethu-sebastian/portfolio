@@ -7,9 +7,9 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "FindYourJob - A Job Portal",
+      title: "EventX - A Event Management System",
       description:
-        "FindYourJob is a job portal where user can search for jobs and apply for them. ",
+        "EventX is a platform where user can create, delete, update, and view events. ",
       tags: ["Typescript", "Nextjs"],
       link: "",
     },
@@ -30,7 +30,7 @@ const projectsPage = () => {
     {
       title: "OneTap- One Page many Links",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
+        "OneTap is a simple platform where user can create a personalized page to showcase all your social media profiles in one place.",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
       link: "",
     },
