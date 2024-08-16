@@ -7,18 +7,18 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "EventX - A Event Management System",
+      title: "RentEase - A Rental Marketplace",
       description:
-        "EventX is a platform where user can create, delete, update, and view events. ",
-      tags: ["Typescript", "Nextjs"],
-      link: "",
+        "RentEase is a platform enabling users to rent out their items ",
+      tags: ["Typescript", "Nextjs","Stripe","MongoDB"],
+      link: "https://github.com/geethu-sebastian/RentEase",
     },
     {
       title: "QRide - A QR Code Enabled Bus information system",
       description:
         "Qride is an app where users can scan QR codes at bus stops and get bus information. ",
-      tags: ["Typescript", "Nextjs"],
-      link: "",
+      tags: ["Nextjs","Tailwind CSS"],
+      link: "https://github.com/SB4-MEC/QRide",
     },
     {
       title: "Connectify - A social media Platform",
